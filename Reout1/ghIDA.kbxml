@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> // for windows 7 just "UTF"
+<?xml version="1.0" encoding="UTF-8"?> // for windows 7 just "<?xml version="1.0" encoding="UTF"?>"
 <CATEGORY NAME="Key Bindings">
     <WRAPPED_OPTION NAME="Source Code Lookup (SourceCodeLookupPlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
         <CLEARED_VALUE />
