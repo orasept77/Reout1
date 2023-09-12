@@ -10,7 +10,7 @@ void ToLower(std::string& str) {
 }
 
 int main() {
-    auto datFile = DatFile{"D:\\GOG\\Games\\Fallout\\MASTER.DAT"};
+    auto datFile = DatFile{"D:\\GOG\\Games\\Fallout\\MASTER.DAT"}; // if linux(ububntu) {"Home/ MASTER.DAT"}
     datFile.version();
     for (auto* item : *datFile.items()) {
         auto name = item->name();
